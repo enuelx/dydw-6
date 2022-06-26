@@ -1,374 +1,363 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-    <head>
-        <meta charset="utf-8" />
-        <title>Watch it! - Estrenos</title>
-        <link rel="stylesheet" href="./css/estilos.css" />
-        <script src="./js/index.js" defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@300;400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="shortcut icon" href="img/grabar.png" type="watch it icon" />
-    </head>
 
-    <body>
-        <header class="header">
-            <div class="container">
-                <div class="header-main">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="./img/Logotipo.png" />
-                            <p class="slogan">The Streaming People</p>
-                        </a>
-                    </div>
-                    <div class="open-nav-menu">
-                        <span></span>
-                    </div>
-                    <div class="menu-overlay"></div>
-                    <nav class="nav-menu">
-                        <div class="close-nav-menu">
-                            <img src="img/close.svg" alt="close" />
-                        </div>
-                        <ul class="menu">
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#" data-toggle="sub-menu"
-                                    >Plataformas <i class="plus"></i
-                                ></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="netflix.html">Netflix</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="disneyplus.html">Disney+</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="primevideo.html"
-                                            >Prime Video</a
-                                        >
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="hbomax.html">HBO Max</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="paramountplus.html"
-                                            >Paramount+</a
-                                        >
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="starplus.html">Star+</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#" data-toggle="sub-menu"
-                                    >Novedades <i class="plus"></i
-                                ></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="renovaciones.html"
-                                            >Renovaciones</a
-                                        >
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="cancelaciones.html"
-                                            >Cancelaciones</a
-                                        >
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="estrenos.html">Estrenos</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="proximos_estrenos.html"
-                                            >Próximos estrenos</a
-                                        >
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#" data-toggle="sub-menu"
-                                    >Nosotros <i class="plus"></i
-                                ></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="historia.html">Historia</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="equipo.html">Equipo</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <div class="search">
-                                    <input
-                                        type="text"
-                                        class="searchTerm"
-                                        placeholder="Buscar..."
-                                    />
-                                    <button type="submit" class="searchButton">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </nav>
+<head>
+    <meta charset="utf-8" />
+    <title>Watch it! - Estrenos</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script src="./js/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="img/grabar.png" type="watch it icon" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/Logotipo.png" />
+                        <p class="slogan">The Streaming People</p>
+                    </a>
                 </div>
-            </div>
-        </header>
-        <main>
-            <h2 class="main-title">Estrenos</h2>
-            <hr />
-            <section>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\peaky blinders.jpg" alt="Peaky Blinders" />
-                    </div>
-                    <div class="descripcion">
-                        <h3>Peaky Blinders - Netflix</h3>
-                        <hr />
-                        <p>La serie se centra en una familia de gánsteres de Birmingham, durante los años veinte y del ascenso de su jefe, Thomas Shelby, un mafioso que dominará toda Inglaterra, después de afrontar una terrible guerra.</p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Estreno: Temporada 6 </p>
-                        </div>
-                    </div>
-                </article>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\MS-marvel.webp" alt="Ms. Marvel"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>Ms. Marvel - Disney+ </h3>
-                        <hr />
-                        <p> Kamala Khan es una adolescente estadounidense-paquistaní de Nueva Jersey con habilidades metamórficas. Descubre que tiene genes inhumanos en las secuelas de "Inhumanity" y asume el rol de Ms. Marvel inspirada en su ídolo Carol Danvers.</p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Temporada 1 en emisión</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\62a8970056b2d.jpeg" alt="Lightyear"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>Lightyear </h3>
-                        <hr />
-                        <p>Lightyear presenta al legendario Guardián Espacial en una aventura intergaláctica junto a un grupo de ambiciosos reclutas y su divertido compañero robot Sox. </p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Estreno: 16 de junio 2022</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\brands-strangerthings2.png" alt="Stranger Things"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>Stranger Things - Netflix</h3>
-                        <hr />
-                        <p>La historia se sitúa en el pueblo ficticio de Hawkins, en el estado Indiana, Estados Unidos, durante los años ochenta, cuando un niño de doce años llamado Will Byers desaparece misteriosamente. Poco después, Eleven, una niña aparentemente fugitiva y con poderes telequinéticos, se encuentra con Mike, Dustin y Lucas, amigos de Will, y los ayuda en la búsqueda del mismo.</p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Temporada 4 en emisión</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\LO3AXRD5MJF3HJEEXAJ2NPAF5M.png" alt="The Offer"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>The Offer - Paramount + </h3>
-                        <hr />
-                        <p>Retrata la vida del productor Al Ruddy, durante su camino a realizar la histórica película de El Padrino. La historia explora el intento de Ruddy por hacer realidad la célebre película a partir de la adaptación de la novela de Mario Puzo, dirigida por el cineasta Francis Ford Coppola, unos de los proyectos más ambiciosos de la historia del cine y que posicionó a la historia como una de las más famosas del mundo cinematográfico.</p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Estreno: Temporada 1</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="main-article">
-                    <div>
-                        <img src=".\img\the boyss.jpg" alt="The Boys"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>The Boys - Prime Video</h3>
-                        <hr />
-                        <p>Cuando los superhéroes abusan de sus superpoderes en lugar de usarlos para el bien, The Boys se embarcan en una búsqueda heroica para exponer secretos. </p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Estreno: Temporada 3</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="main-article">
-                    <div>
-                        <img src="./img\pam-tommy-star-plus.webp" alt="Pam y Tommy"/>
-                    </div>
-                    <div class="descripcion">
-                        <h3>Pam & Tommy - Star+</h3>
-                        <hr />
-                        <p>La historia detrás del escándalo del video prohibido. Ambientada en finales de los noventa, cuando internet recién comenzaba a masificarse, Pam & Tommy se basa en la increíble historia real del video sexual de Pamela Anderson (Lily James) y Tommy Lee (Sebastian Stan).</p>
-                    </div>
-                    <div class="valoracion">
-                        <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p>Estreno: Temporada 1</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </main>
-        <section>
-            <ul class="redes-sociales">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fa fa-facebook-f" alt="Facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/" target="_blank">
-                        <i class="fa fa-twitter" alt="Twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa fa-instagram" alt="Instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <i class="fa fa-youtube-play" alt="Youtube"></i>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <div class="newsletter">
-                <input
-                    type="text"
-                    class="newsletterTerm"
-                    placeholder="Suscríbete a nuestro newsletter"
-                />
-                <button type="submit" class="newsletterButton">
-                    <p>Suscribirme</p>
-                </button>
-            </div>
-        </section>
-        <footer>
-            <div class="container__footer">
-                <div class="box__footer">
-                    <div class="logo">
-                        <img src=".\img\LogoUADE.png" alt="UADE Logo" />
-                    </div>
-                    <div class="terms">
-                        <p>Facultad de Ingeniería y Ciencias Exactas</p>
-                        <p>
-                            Licenciatura en Gestión de Tecnología de la
-                            Información
-                        </p>
-                    </div>
+                <div class="open-nav-menu">
+                    <span></span>
                 </div>
-                <div class="box__footer">
-                    <h2>Alumnos</h2>
-                    <ul>
-                        <li>Bohórquez, María F. – LU 1140456</li>
-                        <li>Carino, Lucas – LU 1137629</li>
-                        <li>De La Fuente, Matías A.- LU 1146994</li>
-                        <li>Maidana, Emmanuel – LU 1098263</li>
-                        <li>Mijares, Noriana – LU 1150183</li>
-                        <li>Redin, Valentino – LU 1159062</li>
+                <div class="menu-overlay"></div>
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="img/close.svg" alt="close" />
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Plataformas <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="netflix.html">Netflix</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="disneyplus.html">Disney+</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="primevideo.html">Prime Video</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="hbomax.html">HBO Max</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="paramountplus.html">Paramount+</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="starplus.html">Star+</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Novedades <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="renovaciones.html">Renovaciones</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="cancelaciones.html">Cancelaciones</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="estrenos.html">Estrenos</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="proximos_estrenos.html">Próximos estrenos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Nosotros <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="historia.html">Historia</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="equipo.html">Equipo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <div class="search">
+                                <input type="text" class="searchTerm" placeholder="Buscar..." />
+                                <button type="submit" class="searchButton">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </li>
                     </ul>
-                </div>
-
-                <div class="box__footer">
-                    <h2>Profesor</h2>
-                    <p>David Ernesto Ayala Velarde</p>
-                    <h2>Materia</h2>
-                    <p>Diseño y Desarrollo Web</p>
-                </div>
-
-                <div class="box__footer">
-                    <h2>Más info</h2>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="contacto.html">Políticas de Privacidad</a>
-                    <a href="contacto.html">Términos y Condiciones</a>
-                    <a href="contacto.html">FAQ's </a>
-                </div>
+                </nav>
             </div>
-            <div class="box__copyright">
+        </div>
+    </header>
+    <main>
+        <h2 class="main-title">Estrenos</h2>
+        <hr />
+        <section>
+            <article class="main-article">
+                <div>
+                    <img src=".\img\peaky blinders.jpg" alt="Peaky Blinders" />
+                </div>
+                <div class="descripcion">
+                    <h3>Peaky Blinders - Netflix</h3>
+                    <hr />
+                    <p>La serie se centra en una familia de gánsteres de Birmingham, durante los años veinte y del
+                        ascenso de su jefe, Thomas Shelby, un mafioso que dominará toda Inglaterra, después de afrontar
+                        una terrible guerra.</p>
+                </div>
+                <div class="valoracion">
+                    <div>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p>Estreno: Temporada 6 </p>
+                    </div>
+                </div>
+            </article>
+            <article class="main-article">
+                <div>
+                    <img src=".\img\MS-marvel.webp" alt="Ms. Marvel" />
+                </div>
+                <div class="descripcion">
+                    <h3>Ms. Marvel - Disney+ </h3>
+                    <hr />
+                    <p> Kamala Khan es una adolescente estadounidense-paquistaní de Nueva Jersey con habilidades
+                        metamórficas. Descubre que tiene genes inhumanos en las secuelas de "Inhumanity" y asume el rol
+                        de Ms. Marvel inspirada en su ídolo Carol Danvers.</p>
+                </div>
+                <div class="valoracion">
+                    <div>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p>Temporada 1 en emisión</p>
+                    </div>
+                </div>
+            </article>
+            <article class="main-article">
+                <div>
+                    <img src=".\img\62a8970056b2d.jpeg" alt="Lightyear" />
+                </div>
+                <div class="descripcion">
+                    <h3>Lightyear </h3>
+                    <hr />
+                    <p>Lightyear presenta al legendario Guardián Espacial en una aventura intergaláctica junto a un
+                        grupo de ambiciosos reclutas y su divertido compañero robot Sox. </p>
+                </div>
+                <div class="valoracion">
+                    <div>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p>Estreno: 16 de junio 2022</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <article class="main-article">
+            <div>
+                <img src=".\img\brands-strangerthings2.png" alt="Stranger Things" />
+            </div>
+            <div class="descripcion">
+                <h3>Stranger Things - Netflix</h3>
                 <hr />
-                <p>
-                    Todos los derechos reservados © 2022 <b>Grupo 6</b> / 21 de
-                    junio de 2022
-                </p>
+                <p>La historia se sitúa en el pueblo ficticio de Hawkins, en el estado Indiana, Estados Unidos, durante
+                    los años ochenta, cuando un niño de doce años llamado Will Byers desaparece misteriosamente. Poco
+                    después, Eleven, una niña aparentemente fugitiva y con poderes telequinéticos, se encuentra con
+                    Mike, Dustin y Lucas, amigos de Will, y los ayuda en la búsqueda del mismo.</p>
             </div>
-        </footer>
-    </body>
+            <div class="valoracion">
+                <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p>Temporada 4 en emisión</p>
+                </div>
+            </div>
+        </article>
+        <article class="main-article">
+            <div>
+                <img src=".\img\LO3AXRD5MJF3HJEEXAJ2NPAF5M.png" alt="The Offer" />
+            </div>
+            <div class="descripcion">
+                <h3>The Offer - Paramount + </h3>
+                <hr />
+                <p>Retrata la vida del productor Al Ruddy, durante su camino a realizar la histórica película de El
+                    Padrino. La historia explora el intento de Ruddy por hacer realidad la célebre película a partir de
+                    la adaptación de la novela de Mario Puzo, dirigida por el cineasta Francis Ford Coppola, unos de los
+                    proyectos más ambiciosos de la historia del cine y que posicionó a la historia como una de las más
+                    famosas del mundo cinematográfico.</p>
+            </div>
+            <div class="valoracion">
+                <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p>Estreno: Temporada 1</p>
+                </div>
+            </div>
+        </article>
+        <article class="main-article">
+            <div>
+                <img src=".\img\the boyss.jpg" alt="The Boys" />
+            </div>
+            <div class="descripcion">
+                <h3>The Boys - Prime Video</h3>
+                <hr />
+                <p>Cuando los superhéroes abusan de sus superpoderes en lugar de usarlos para el bien, The Boys se
+                    embarcan en una búsqueda heroica para exponer secretos. </p>
+            </div>
+            <div class="valoracion">
+                <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p>Estreno: Temporada 3</p>
+                </div>
+            </div>
+        </article>
+        <article class="main-article">
+            <div>
+                <img src="./img\pam-tommy-star-plus.webp" alt="Pam y Tommy" />
+            </div>
+            <div class="descripcion">
+                <h3>Pam & Tommy - Star+</h3>
+                <hr />
+                <p>La historia detrás del escándalo del video prohibido. Ambientada en finales de los noventa, cuando
+                    internet recién comenzaba a masificarse, Pam & Tommy se basa en la increíble historia real del video
+                    sexual de Pamela Anderson (Lily James) y Tommy Lee (Sebastian Stan).</p>
+            </div>
+            <div class="valoracion">
+                <div>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p>Estreno: Temporada 1</p>
+                </div>
+            </div>
+        </article>
+        </section>
+    </main>
+    <section>
+        <ul class="redes-sociales">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook-f" alt="Facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <i class="fa fa-twitter" alt="Twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram" alt="Instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fa fa-youtube-play" alt="Youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <div class="newsletter">
+            <input type="text" class="newsletterTerm" placeholder="Suscríbete a nuestro newsletter" />
+            <button type="submit" class="newsletterButton">
+                <p>Suscribirme</p>
+            </button>
+        </div>
+    </section>
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src=".\img\LogoUADE.png" alt="UADE Logo" />
+                </div>
+                <div class="box__footer">
+                    <h2>Carrera de Grado</h2>
+                    <p>Facultad de Ingeniería y Ciencias Exactas</p>
+                    <p>
+                        Licenciatura en Gestión de Tecnología de la
+                        Información
+                    </p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Alumnos</h2>
+                <ul>
+                    <li>Bohórquez, María F. – LU 1140456</li>
+                    <li>Carino, Lucas – LU 1137629</li>
+                    <li>De La Fuente, Matías A.- LU 1146994</li>
+                    <li>Maidana, Emmanuel – LU 1098263</li>
+                    <li>Mijares, Noriana – LU 1150183</li>
+                    <li>Redin, Valentino – LU 1159062</li>
+                </ul>
+            </div>
+
+            <div class="box__footer">
+                <h2>Profesor</h2>
+                <p>David Ernesto Ayala Velarde</p>
+                <h2>Materia</h2>
+                <p>Diseño y Desarrollo Web</p>
+            </div>
+
+            <div class="box__footer">
+                <h2>Más info</h2>
+                <a href="contacto.html">Contacto</a>
+                <a href="contacto.html">Políticas de Privacidad</a>
+                <a href="contacto.html">Términos y Condiciones</a>
+                <a href="contacto.html">FAQ's</a>
+            </div>
+        </div>
+        <div class="box__copyright">
+            <hr />
+            <p>
+                Todos los derechos reservados © 2022 <b>Grupo 6</b> / 29 de
+                junio de 2022
+            </p>
+        </div>
+    </footer>
+</body>
+
 </html>
