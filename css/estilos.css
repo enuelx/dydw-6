@@ -861,28 +861,29 @@ footer {
 .descripcion4 h3 {
 	color: #9A94bC;
     display: block;
-    font-size: 25px;
+    font-size: 24px;
 	font-weight: 400;
 }
 .descripcion4 h4 {
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 18px;
 }
 .descripcion4 p {
 	color: #7a7a7a;
-	font-size: 18px;
+	font-size: 16px;
+}
+.main-article4 .faqs{
+	width: 45%;
+	text-align: justify;
+}
+
+.main-article4 .politicas{
+	width: 50%;
 	text-align: justify;
 }
 
 .main-article4 div p {
 	font-size: 15px;
-}
-
-.container1 {
-	max-width: 600px;
-	width: 100%;
-	margin: 0 auto;
-
 }
 
 #contact1 input[type="text"],
@@ -896,7 +897,6 @@ footer {
 
 #contact1 {
 	background: #131112;
-	padding: 25px;
 	margin: 0px;
 }
 
