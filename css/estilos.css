@@ -540,6 +540,9 @@ footer {
 .descripcion {
 	margin-left: 20px;
 }
+.descripcion p {
+	text-align: justify;
+}
 
 .main-article div p {
 	font-size: 16px;
@@ -583,6 +586,7 @@ footer {
 
 .descripcion2 {
 	margin-left: 20px;
+	text-align: justify;
 }
 
 .main-article2 div p {
@@ -695,7 +699,6 @@ footer {
 	.descripcion {
 		margin-left: 0px;
 	}
-
 }
 
 /* Equipo */
@@ -823,6 +826,7 @@ footer {
 
 .descripcion3 {
 	margin-left: 20px;
+	text-align: justify;
 }
 
 .main-article3 div p {
@@ -853,6 +857,21 @@ footer {
 .descripcion4 {
 	margin-left: 20px;
 	margin-right: 50px;
+}
+.descripcion4 h3 {
+	color: #9A94bC;
+    display: block;
+    font-size: 25px;
+	font-weight: 400;
+}
+.descripcion4 h4 {
+	color: #ffffff;
+	font-size: 20px;
+}
+.descripcion4 p {
+	color: #7a7a7a;
+	font-size: 18px;
+	text-align: justify;
 }
 
 .main-article4 div p {
