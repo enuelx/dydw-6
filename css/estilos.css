@@ -714,9 +714,10 @@ footer {
 }
 
 .wrapper h1 {
-	font-size: 48px;
+	font-size: 24px;
 	color: #fff;
-	margin-bottom: 25px;
+	text-align: left;
+	margin-bottom: 20px;
 }
 
 .wrapper img {
@@ -829,6 +830,7 @@ footer {
 
 .descripcion3 {
 	margin-left: 20px;
+	margin-right: 20px;
 	text-align: justify;
 }
 
