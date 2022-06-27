@@ -293,7 +293,8 @@ main {
 }
 
 .slideShow img {
-	width: 100%;
+	width: 75%;
+	text-align: center;
 	object-fit: cover;
 }
 
@@ -306,6 +307,7 @@ body {
 .slideshow-container {
 	position: relative;
 	margin: auto;
+	text-align: center;
 }
 
 .text {
@@ -359,7 +361,9 @@ body {
 	display: inline-block;
 	transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+
+.active,
+.dot:hover {
 	background-color: #717171;
 }
 
@@ -554,6 +558,7 @@ footer {
 .descripcion {
 	margin-left: 20px;
 }
+
 .descripcion p {
 	text-align: justify;
 }
@@ -721,7 +726,8 @@ footer {
 	margin-top: 60px;
 	text-align: center;
 }
-.wrapper li{
+
+.wrapper li {
 	text-align: left;
 	font-size: 16px;
 	text-decoration: none;
@@ -753,7 +759,8 @@ footer {
 	background: #fff;
 	padding: 20px 10px;
 }
-.our_team .team_member li{
+
+.our_team .team_member li {
 	font-size: 15px;
 }
 
@@ -877,26 +884,30 @@ footer {
 	margin-left: 40px;
 	margin-right: 50px;
 }
+
 .descripcion4 h3 {
 	color: #9A94bC;
-    display: block;
-    font-size: 24px;
+	display: block;
+	font-size: 24px;
 	font-weight: 400;
 }
+
 .descripcion4 h4 {
 	color: #ffffff;
 	font-size: 18px;
 }
+
 .descripcion4 p {
 	color: #7a7a7a;
 	font-size: 16px;
 }
-.main-article4 .faqs{
+
+.main-article4 .faqs {
 	width: 45%;
 	text-align: justify;
 }
 
-.main-article4 .politicas{
+.main-article4 .politicas {
 	width: 50%;
 	text-align: justify;
 }
