@@ -702,9 +702,10 @@ footer {
 
 .wrapper {
 	margin-top: 60px;
-	text-align: left;
+	text-align: center;
 }
 .wrapper li{
+	text-align: left;
 	font-size: 16px;
 	text-decoration: none;
 }
