@@ -160,6 +160,10 @@ a {
 	}
 }
 
+.header .menu>.menu-item>a.current_page_item {
+	color: #9A94BC;
+}
+
 .header .menu>.menu-item>.sub-menu>.menu-item {
 	display: block;
 }
