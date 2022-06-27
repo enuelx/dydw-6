@@ -706,6 +706,7 @@ footer {
 }
 .wrapper li{
 	font-size: 16px;
+	text-decoration: none;
 }
 
 .wrapper h1 {
