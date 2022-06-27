@@ -698,7 +698,10 @@ footer {
 
 .wrapper {
 	margin-top: 60px;
-	text-align: center;
+	text-align: left;
+}
+.wrapper li{
+	font-size: 16px;
 }
 
 .wrapper h1 {
