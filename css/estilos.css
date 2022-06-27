@@ -738,6 +738,9 @@ footer {
 	background: #fff;
 	padding: 20px 10px;
 }
+.our_team .team_member li{
+	font-size: 15px;
+}
 
 .our_team .team_member .member_img {
 	background: #e9e5fa;
