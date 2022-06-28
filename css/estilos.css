@@ -133,6 +133,13 @@ a {
 	color: #9A94BC;
 }
 
+.header .menu>.menu-item>.current_page_item {
+	text-decoration: underline white;
+}
+
+.header .menu>.menu-item>.sub-menu>.current_page_subitem {
+	text-decoration: underline black;
+}
 .header .menu>.menu-item>.sub-menu {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	width: 220px;
@@ -158,10 +165,6 @@ a {
 	.header .menu>.menu-item-has-children:hover>a .plus:after {
 		transform: translate(-50%, -50%) rotate(0deg);
 	}
-}
-
-.header .menu>.menu-item>a.current_page_item {
-	color: #9A94BC;
 }
 
 .header .menu>.menu-item>.sub-menu>.menu-item {
