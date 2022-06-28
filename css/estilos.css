@@ -623,6 +623,15 @@ footer {
 	margin-right: 0px;
 }
 
+.iframe {
+	display: inline;
+	align-self: center;
+}
+.images {
+	display: inline;
+	align-self: center;
+}
+
 /* responsive */
 
 @media(max-width: 768px) {
